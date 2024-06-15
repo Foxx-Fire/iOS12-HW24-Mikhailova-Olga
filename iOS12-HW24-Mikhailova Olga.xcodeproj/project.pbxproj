@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0BC7F8312C1DAE7500B996A0 /* iOS12_HW24_Mikhailova_OlgaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F8302C1DAE7500B996A0 /* iOS12_HW24_Mikhailova_OlgaApp.swift */; };
-		0BC7F8332C1DAE7500B996A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F8322C1DAE7500B996A0 /* ContentView.swift */; };
+		0BC7F8332C1DAE7500B996A0 /* RadioChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F8322C1DAE7500B996A0 /* RadioChapter.swift */; };
 		0BC7F8352C1DAE7700B996A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC7F8342C1DAE7700B996A0 /* Assets.xcassets */; };
 		0BC7F8382C1DAE7700B996A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC7F8372C1DAE7700B996A0 /* Preview Assets.xcassets */; };
+		0BC7F8422C1DB33600B996A0 /* RadioJsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F8412C1DB33600B996A0 /* RadioJsonModel.swift */; };
+		0BC7F8442C1DB36100B996A0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F8432C1DB36100B996A0 /* ImageLoader.swift */; };
+		0BC7F8462C1DB38C00B996A0 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC7F8452C1DB38C00B996A0 /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BC7F82D2C1DAE7500B996A0 /* iOS12-HW24-Mikhailova Olga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS12-HW24-Mikhailova Olga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC7F8302C1DAE7500B996A0 /* iOS12_HW24_Mikhailova_OlgaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS12_HW24_Mikhailova_OlgaApp.swift; sourceTree = "<group>"; };
-		0BC7F8322C1DAE7500B996A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BC7F8322C1DAE7500B996A0 /* RadioChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioChapter.swift; sourceTree = "<group>"; };
 		0BC7F8342C1DAE7700B996A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC7F8372C1DAE7700B996A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BC7F8412C1DB33600B996A0 /* RadioJsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioJsonModel.swift; sourceTree = "<group>"; };
+		0BC7F8432C1DB36100B996A0 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		0BC7F8452C1DB38C00B996A0 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,8 @@
 		0BC7F82F2C1DAE7500B996A0 /* iOS12-HW24-Mikhailova Olga */ = {
 			isa = PBXGroup;
 			children = (
-				0BC7F8302C1DAE7500B996A0 /* iOS12_HW24_Mikhailova_OlgaApp.swift */,
-				0BC7F8322C1DAE7500B996A0 /* ContentView.swift */,
-				0BC7F8342C1DAE7700B996A0 /* Assets.xcassets */,
-				0BC7F8362C1DAE7700B996A0 /* Preview Content */,
+				0BC7F83F2C1DB11D00B996A0 /* Sourses */,
+				0BC7F83E2C1DB10E00B996A0 /* Resources */,
 			);
 			path = "iOS12-HW24-Mikhailova Olga";
 			sourceTree = "<group>";
@@ -65,6 +69,35 @@
 				0BC7F8372C1DAE7700B996A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BC7F83E2C1DB10E00B996A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BC7F8362C1DAE7700B996A0 /* Preview Content */,
+				0BC7F8342C1DAE7700B996A0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BC7F83F2C1DB11D00B996A0 /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				0BC7F8402C1DB31000B996A0 /* Radio */,
+				0BC7F8302C1DAE7500B996A0 /* iOS12_HW24_Mikhailova_OlgaApp.swift */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		0BC7F8402C1DB31000B996A0 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				0BC7F8322C1DAE7500B996A0 /* RadioChapter.swift */,
+				0BC7F8412C1DB33600B996A0 /* RadioJsonModel.swift */,
+				0BC7F8432C1DB36100B996A0 /* ImageLoader.swift */,
+				0BC7F8452C1DB38C00B996A0 /* URLImage.swift */,
+			);
+			path = Radio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC7F8332C1DAE7500B996A0 /* ContentView.swift in Sources */,
+				0BC7F8332C1DAE7500B996A0 /* RadioChapter.swift in Sources */,
 				0BC7F8312C1DAE7500B996A0 /* iOS12_HW24_Mikhailova_OlgaApp.swift in Sources */,
+				0BC7F8442C1DB36100B996A0 /* ImageLoader.swift in Sources */,
+				0BC7F8462C1DB38C00B996A0 /* URLImage.swift in Sources */,
+				0BC7F8422C1DB33600B996A0 /* RadioJsonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS12-HW24-Mikhailova Olga/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS12-HW24-Mikhailova Olga/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iOS12-HW24-Mikhailova Olga/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOS12-HW24-Mikhailova Olga/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
