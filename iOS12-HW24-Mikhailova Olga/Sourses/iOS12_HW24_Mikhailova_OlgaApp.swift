@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS12_HW24_Mikhailova_OlgaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RadioChapter()
         }
     }
 }
